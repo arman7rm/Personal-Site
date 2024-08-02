@@ -1,0 +1,148 @@
+body{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+footer{
+  margin-top: 3rem;
+}
+
+  .menu a {
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #333333;
+  }
+  .logo{
+    margin-top:7%;
+    margin-bottom:3%;
+  }
+  .navigation{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
+
+  .crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .crumb {
+    display: inline-block;
+  }
+  .menu{
+      text-align: center;
+  }
+  .heading{
+    color:#2070C7;
+    margin-top:10%;
+    font-size:2rem;
+    text-align:center;
+  }
+
+  .heading h1 {
+    font-weight: lighter;
+  }
+  .logo img{
+    width:125px;
+    margin:auto;
+    display:block;
+  }
+  .scroll img{
+    display: block;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+  }
+  .description p{
+    text-align:center;
+    color: #353535;
+    font-size: 16px;
+  }
+  .animated-element {
+    animation: moveUpDown 2s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+    will-change: transform;
+  }
+  @keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    12.5% {
+        transform: translateY(-15px);
+    }
+    25% {
+        transform: translateY(0);
+    }
+    37.5% {
+        transform: translateY(15px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    62.5% {
+        transform: translateY(-15px);
+    }
+    75% {
+        transform: translateY(0);
+    }
+    87.5% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+  .Contact{
+    display: block;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 5%
+  }
+
+  .contactTable{
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  .KeyBoardPic{
+    margin-left: 0;
+    float: left;
+    width: 100%;
+  }
+   table td{
+    width: 50%;
+    text-align: left;
+    padding-left: 2rem;
+  }
+  .headShot{
+    width:350px;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-left:30%;
+  }
+  .About{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .aboutContent{
+    width: 50%;
+  }
+
+  .aboutContent h1{
+    text-align: center;
+    font-weight: 200;
+    font-size: 60px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
